@@ -2,10 +2,14 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.section100vh{
+    height: 100vh;
+}
+
 /* header banner */
 header{
-    height: 75vh;
-    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)), url(images/ernesto-main-banner.jpg) no-repeat center center /cover;
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)), url(images/ernesto-main-banner-01.jpg) no-repeat center center /cover;
+    background-attachment: fixed;
 }
 .banner{
     position: absolute;
@@ -24,6 +28,12 @@ header{
     animation-duration: 3s;
     animation-delay: .8s;
     animation-fill-mode: backwards;
+}
+.navbar-menu{
+    margin-top:-135px;
+}
+.navbar-menu-section-p{
+    padding-bottom: 135px;
 }
 @keyframes anim{
     0%{
