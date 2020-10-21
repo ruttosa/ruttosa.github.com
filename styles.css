@@ -1,0 +1,55 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* header banner */
+header{
+    height: 75vh;
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)), url(images/ernesto-main-banner.jpg) no-repeat center center /cover;
+}
+.banner{
+    position: absolute;
+    top:40%;
+    left:55%;
+    transform: translate(-25%, -50%);
+    width: 50%;
+}
+.banner-heading{
+    line-height: 1.5;
+    animation-name: anim;
+    animation-duration: 2s;
+}
+.banner-par{
+    animation-name: anim;
+    animation-duration: 3s;
+    animation-delay: .8s;
+    animation-fill-mode: backwards;
+}
+@keyframes anim{
+    0%{
+        transform:translateX(100px);
+        opacity:0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@media (max-width:768px){
+    .h1{
+        font-size: 1.75rem;
+    }
+}
+/* end of header banner */
+
+/* navbar */
+
+/* end of navbar */
+
+/* presentation */
+
+/* end of presentation */
+
+/* skills */
+
+/* end of skills */

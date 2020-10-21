@@ -1,261 +1,276 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8"> 
-
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title>Eventos UTPL</title>
-
-    <meta name="description" content="Conoce todos los eventos de cursos y talleres organizados por la Universidad Técnica Particular de Loja" />
-    <meta name="keywords" content="curso, taller, universidad, evento, estudio, loja, distancia, inscripcion, registro" />
-
-    <!--<link href="/dashboard/stylesheets/normalize.css" rel="stylesheet" type="text/css" />-->
-    <link href="/dashboard/stylesheets/all.css" rel="stylesheet" type="text/css" />
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="title icon" type="image/png" href="images/title-icon.jpg" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <link href="styles/carousel.css" rel="stylesheet" type="text/css" />
-    <link href="styles/site.css" rel="stylesheet" type="text/css" />
+    <!-- Font Awesome -->
+    <script defer src="https://kit.fontawesome.com/b7ddb9535f.js" crossorigin="anonymous"></script>
 
+    <!-- Google Fonts - Monserrat -->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
-    <!-- Font Awesome CDN -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="styles.css">
 
-    <!--<script src="/dashboard/javascripts/modernizr.js" type="text/javascript"></script>-->
-    <!--<link href="/dashboard/images/favicon.png" rel="icon" type="image/png" />-->
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+ 
+    <header>
+      <!-- social navbar -->
+      <nav class="navbar navbar-expand bg-transparent justify-content-end">
+        <ul class="navbar-nav nav-inline mt-3">
+          <li class="nav-item mr-4 text-warning"><i class="fa fa-linkedin fa-3x"></i></li>
+          <li class="nav-item mr-4 text-warning"><i class="fa fa-github fa-3x"></i></li>
+          <!-- li class="nav-item mr-4 text-warning"><i class="fa fa-facebook fa-2x"></i></li> -->
+        </ul>
+      </nav>
+      <!-- end of social navbar -->
+      <!-- banner -->
+      <div class="text-light text-right banner">
+        <div class="h1 banner-heading">A simple mortal with a computer, coffee and lot of hours of navigation across the Internet</div>
+      </div>
+      <!-- end of banner -->     
+    </header>
 
-</head>
-
-<body>     
-    <div>
-        <!-- SECCION CABECERA -->
-        <header class="blog-header py-3">
-            <div class="d-flex flex-nowrap justify-content-between align-items-center">
-                <div class="col-4 pt-1">LOGO</div>
-                <div class="col-4 text-center"></div>
-                <div class="col-4 d-flex justify-content-end align-items-center">
-                    <a class="text-muted" href="Inscriptos.php">
-                        <span style="text-align:right;">Verificar Inscriptos</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
-                    </a>
-                    <a class="btn btn-sm btn-outline-secondary" href="#">Log In</a>
-                </div>
-            </div>
-        </header>
-        <div class="p-3 p-md-5 text-white bg-dark slide-img">
-            <div class="col-md-6 px-0">
-                <h1 class="display-4 font-italic">Regístrate en nuestros eventos de cursos y talleres</h1>
-                <p class="lead my-3">Adquiere nuevos conocimientos para acrecentar tu perfil profesional con temáticas de vanguardia...</p>
-                <p class="lead mb-0"><a href="Registro.php" class="text-white font-weight-bold">Quiero registrarme!</a></p>
-            </div>
+    <!-- navbar -->
+    <div class="container-fluid bg-dark">
+      <nav class="navbar navbar-expand-md nav-menu">
+        <button class="navbar-toggler btn nav-button" type="button" data-toggle="collapse" data-target="#mainNavbar">
+          <div class="bg-warning line1">Open menu</div>
+        </button>
+        <div class="collapse navbar-collapse text-uppercase font-weight-bold" id="mainNavbar">
+          <ul class="navbar-nav w-100 d-flex justify-content-around">
+            <li class="nav-item text-center">              
+              <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
+                <i class="fas fa-child fa-3x text-light m-3"></i>
+                More about me
+              </a>
+            </li>
+            <li class="nav-item text-center">              
+              <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
+                <i class="fas fa-magic fa-3x text-light m-3"></i>
+                Skills
+              </a>
+            </li>
+            <li class="nav-item text-center">              
+              <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
+                <i class="fas fa-laptop-code fa-3x text-light m-3"></i>
+                Experience
+              </a>
+            </li>
+            <li class="nav-item text-center">              
+              <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
+                <i class="fas fa-bug fa-3x text-light m-3"></i>
+                Portfolio
+              </a>
+            </li>
+            <li class="nav-item text-center">              
+              <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
+                <i class="fas fa-graduation-cap fa-3x text-light m-3"></i>
+                Education
+              </a>
+            </li>
+            <li class="nav-item text-center">              
+              <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
+                <i class="fas fa-paper-plane fa-3x text-light m-3"></i>
+                Contact
+              </a>
+            </li>
+          </ul>
         </div>
-        
-        <!-- SECCION MENU -->
-        <div class="container">
-            <div class="nav-scroller py-1 mb-2">
-                <nav class="nav d-flex justify-content-between">
-                    <a class="p-2 text-muted" href="#">Inicio</a>
-                    <a class="p-2 text-muted" href="#">Ponencias</a>
-                    <a class="p-2 text-muted" href="#">Expositores</a>
-                    <a class="p-2 text-muted" href="#">Agenda</a>
-                    <a class="p-2 text-muted" href="Registro.php">Registro</a>
-                    <a class="p-2 text-muted" href="#">Contacto</a>
-                    <!--<a class="p-2 text-muted" href="#">Login</a>-->
-                </nav>
-            </div>
-        </div>        
-    
-        <!-- SECCION NOTICIAS -->
-        <div class="container-fluid">
-            <h1 class="mb-3">NOTICIAS</h1>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner row w-100 mx-auto">
-                    <div class="carousel-item col-md-4 active">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="media/img/noticias/1300.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 1</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="media/img/noticias/13358.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 2</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="media/img/noticias/14874.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 3</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="media/img/noticias/149393-OTYQU3-535.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 4</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="media/img/noticias/304.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 5</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="media/img/noticias/4652.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 6</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img class="card-img-top img-fluid" src="media/img/noticias/643.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h4 class="card-title">Noticia 7</h4>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-        <hr class="hr-filter" />
-        <!-- SECCION GALERIA -->
-        <div class="container-fluid">
-            <h1 class="mb-3">GALERÍA</h1>
-            <div class="container">            
-                <div class="gal-container-center row">
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 1" ><img class="thumbnail img-responsive" src="media/img/galeria/12.jpg"></a></div>
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 2" ><img class="thumbnail img-responsive" src="media/img/galeria/16414.jpg"></a></div>
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 3" ><img class="thumbnail img-responsive" src="media/img/galeria/1916.jpg"></a></div>
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 4" ><img class="thumbnail img-responsive" src="media/img/galeria/2156.jpg"></a></div>
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 5" ><img class="thumbnail img-responsive" src="media/img/galeria/2367.jpg"></a></div>
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 6" ><img class="thumbnail img-responsive" src="media/img/galeria/253903.jpg"></a></div>
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 8" ><img class="thumbnail img-responsive" src="media/img/galeria/284872.jpg"></a></div>
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 9" ><img class="thumbnail img-responsive" src="media/img/galeria/30124.jpg"></a></div>
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 10" ><img class="thumbnail img-responsive" src="media/img/galeria/476415-PGAC0T-941.jpg"></a></div>
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 11" ><img class="thumbnail img-responsive" src="media/img/galeria/94137.jpg"></a></div>
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 12" ><img class="thumbnail img-responsive" src="media/img/galeria/OGA5I60.jpg"></a></div>
-                    <div class="col-lg-3 col-sm-4 col-xs-6 gal-thumb"><a title="Image 13" ><img class="thumbnail img-responsive" src="media/img/galeria/OGMT8M0.jpg"></a></div>
-                </div>
-            </div>
-        </div>
-        <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-		                <button class="close" type="button" data-dismiss="modal">×</button>
-		                <h3 class="modal-title">Heading</h3>
-	                </div>
-	                <div class="modal-body"></div>
-	                <div class="modal-footer">
-		                <button class="btn btn-default" data-dismiss="modal">Close</button>
-	                </div>
-                </div>
-            </div>
-        </div>
-
-
-      
+      </nav>
     </div>
+    <!-- end of navbar -->
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="row col-md-12">
-            <div class="col-md-8">
-                <ul class="social">
-                    <li class="twitter"><a href="#">Follow us on Twitter</a></li>
-                    <li class="facebook"><a href="#">Like us on Facebook</a></li>
-                    <li class="google"><a href="#">Add us to your G+ Circles</a></li>
-                </ul>
-                <ul class="inline-list">
-                    <li><a href="https://www.utpl.edu.ec" target="_blank">UTPL</a></li>
-                </ul>
+    <!-- about me -->
+    <section class="py-4 bg-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="carousel slide" data-ride="carousel" id="customer-carousel">
+              <ol class="carousel-indicators m-auto">
+                <li data-target="#customer-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#customer-carousel" data-slide-to="1"></li>
+                <li data-target="#customer-carousel" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                  <div class="container my-4">
+                    <div class="row">
+                      <div class="col-md-6 d-flex">
+                        <div class="d-flex flex-column justify-content-center">
+                          <blockquote class="blockquote text-white">
+                            <p class="lead">As SharePoint Specialist I mostly help organizations with RPA solutions using different tools and frameworks (SPFx, REST APIs, CSOM, JSOM, SharePoint Designer, Power Apps, Power Automate, InfoPath, Add-ins and Apps, among others), but I also orchestrate any kind of service for RPA and/or integrations using Azure Functions or Logic Apps, or just creating/consuming REST API services</p>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="images/customer1.jpeg" alt="" class="img rounded-circle" width="300"  height="300">
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+                <div class="carousel-item text-center">
+                  <div class="container my-4">
+                    <div class="row">
+                      <div class="col-md-6 d-flex">
+                        <div class="d-flex flex-column justify-content-center">
+                          <blockquote class="blockquote text-white">
+                            <p class="lead">I also have experience developing web applications based on C# (MVC .Net & Core), JavaScript, REST, HTML, CSS and Angular. I recently had a close encounter with Azure DevOps and I started to apply on every personal project</p>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="images/customer1.jpeg" alt="" class="img rounded-circle" width="300"  height="300">
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+                <div class="carousel-item text-center">
+                  <div class="container my-4">
+                    <div class="row">
+                      <div class="col-md-6 d-flex">
+                        <div class="d-flex flex-column justify-content-center">
+                          <blockquote class="blockquote text-white">
+                            <p class="lead">In these years as a consultant, between projects, I had to work with lot stuffs for creating POCs or simple projects, learning basics about Power Shell Scripting, Linux administration, T-SQL Scripting, SSIS ETL’s, RabbitMQ. I also have experience creating schedules, agile user stories, or others documentation needed for a project</p>
+                          </blockquote>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <img src="images/customer1.jpeg" alt="" class="img rounded-circle" width="300"  height="300">
+                      </div>
+                    </div>
+                  </div>                  
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-                <p class="text-right">Copyright (c) 2018, Ernesto Meneses</p>
-            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+    </section>
+    <!-- end of about me -->
 
-<!-- JS Libraries -->
-<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- skills -->
+    <section class="py-4 bg-success">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="h2 text-center mb-4">
+              <h1>Skills</h1>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 text-center">
+                  <div class="card shadow card-common">
+                    <div class="card-title py-2">
+                      <h3>Front-End</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="mb-2 skill-line">
+                        <div class="d-flex justify-content-around align-items-center">
+                          <div class="d-flex align-items-center">
+                            <i class="fas fa-hand-point-right fa-2x text-warning mr-5"></i>
+                            <h5 class="m-0">HTML - CSS - Javascript</h5>
+                          </div>
+                          <ul class="list-inline m-0">
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="mb-2 skill-line">
+                        <div class="d-flex justify-content-around align-items-center">
+                          <div class="d-flex align-items-center">
+                            <i class="fas fa-hand-point-right fa-2x text-warning mr-5"></i>
+                            <h5 class="m-0">Bootstrap</h5>
+                          </div>
+                          <ul class="list-inline m-0">
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="mb-2 skill-line">
+                        <div class="d-flex justify-content-around align-items-center">
+                          <div class="d-flex align-items-center">
+                            <i class="fas fa-hand-point-right fa-2x text-warning mr-5"></i>
+                            <h5 class="m-0">Angular</h5>
+                          </div>
+                          <ul class="list-inline m-0">
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                            <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 text-center">
+                  <div class="card shadow card-common">
+                    <div class="card-title py-2">
+                      <h3>Back-End</h3>
+                    </div>
+                    <div class="card-body">
+                      <div class="d-flex justify-content-around align-items-center">
+                        <div class="d-flex align-items-center">
+                          <i class="fas fa-hand-point-right fa-2x text-warning mr-5"></i>
+                          <h5 class="m-0">Sales</h5>
+                        </div>
+                        <ul class="list-inline m-0">
+                          <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                          <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of skills -->
 
-<!-- Bootstrap Liraries -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- experience -->
+    <!-- end of experience -->
+    
+    <!-- achievements -->
+    <!-- end of achhievements -->
 
-<!--<script src="/dashboard/javascripts/all.js" type="text/javascript"></script>-->
+    <!-- education -->
+    <!-- end of education -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
     <script>
-        $(document).ready(function () {
-            $("#myCarousel").on("slide.bs.carousel", function (e) {
-                var $e = $(e.relatedTarget);
-                var idx = $e.index();
-                var itemsPerSlide = 3;
-                var totalItems = $(".carousel-item").length;
-
-                if (idx >= totalItems - (itemsPerSlide - 1)) {
-                    var it = itemsPerSlide - (totalItems - idx);
-                    for (var i = 0; i < it; i++) {
-                        // append slides to end
-                        if (e.direction == "left") {
-                            $(".carousel-item")
-                              .eq(i)
-                              .appendTo(".carousel-inner");
-                        } else {
-                            $(".carousel-item")
-                              .eq(0)
-                              .appendTo($(this).find(".carousel-inner"));
-                        }
-                    }
-                }
-            });
-
-            $('.thumbnail').click(function () {
-                $('.modal-body').empty();
-                var title = $(this).parent('a').attr("title");
-                $('.modal-title').html(title);
-                $($(this).parents('div').html()).appendTo('.modal-body');
-                $('#myModal').modal({ show: true });
-            });
-        });
-
+      $('.nav-item a').click(e => {
+        e.preventDefault();
+        $(this).tab('show');
+      });
     </script>
-</body>
+
+  </body>
 </html>
