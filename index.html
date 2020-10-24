@@ -1,66 +1,86 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="title icon" type="image/png" href="images/title-icon.jpg" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="title icon" type="image/png" href="images/title-icon.jpg" />
 
-    <!-- Font Awesome -->
-    <script defer src="https://kit.fontawesome.com/b7ddb9535f.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <!-- Google Fonts - Monserrat -->
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script defer src="https://kit.fontawesome.com/b7ddb9535f.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="styles.css">
+  <!-- Google Fonts - Monserrat -->
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
-    <title>Ernesto Meneses Profile</title>
-  </head>
-  <body>
+  <!-- fullPage.js styles -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.css" />
+
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Ernesto Meneses Profile</title>
+</head>
+
+<body>
+
+  <div id="fullPage" class="section100vh">
+    <!-- Fixed Top Social navbar -->
+    <div id="header">
+      <nav class="navbar navbar-expand bg-transparent fixed-top justify-content-end">
+        <ul class="navbar-nav nav-inline mt-3">
+          <li class="nav-item mr-4"><a class="text-warning" href="https://www.linkedin.com/in/ruttosa"><i class="fa fa-linkedin fa-3x"></i></a></li>
+          <li class="nav-item mr-4 text-warning"><a class="text-warning" href="https://github.com/ruttosa"><i class="fa fa-github fa-3x"></i></a></li>
+          <!-- li class="nav-item mr-4 text-warning"><i class="fa fa-facebook fa-2x"></i></li> -->
+        </ul>
+      </nav>
+    </div>
+    <!-- end of Fixed Top Social navbar -->
+
     <!-- Fixed Bottom Navbar -->
-    <div class="container-fluid bg-dark fixed-bottom navbar-menu">
+    <div id="footer" class="container-fluid bg-dark fixed-bottom">
       <nav class="navbar navbar-expand-md nav-menu">
         <button class="navbar-toggler btn nav-button" type="button" data-toggle="collapse" data-target="#mainNavbar">
           <div class="bg-warning line1">Open menu</div>
         </button>
         <div class="collapse navbar-collapse text-uppercase font-weight-bold" id="mainNavbar">
           <ul class="navbar-nav w-100 d-flex justify-content-around">
-            <li class="nav-item text-center">              
+            <li class="nav-item text-center">
               <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
-                <i class="fas fa-child fa-3x text-light m-3"></i>
+                <i class="fas fa-child fa-2x text-light m-1 fa-2x"></i>
                 More about me
               </a>
             </li>
-            <li class="nav-item text-center">              
+            <li class="nav-item text-center">
               <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
-                <i class="fas fa-magic fa-3x text-light m-3"></i>
+                <i class="fas fa-magic fa-2x text-light m-1 fa-2x"></i>
                 Skills
               </a>
             </li>
-            <li class="nav-item text-center">              
+            <li class="nav-item text-center">
               <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
-                <i class="fas fa-laptop-code fa-3x text-light m-3"></i>
+                <i class="fas fa-laptop-code fa-2x text-light m-1 fa-2x"></i>
                 Experience
               </a>
             </li>
-            <li class="nav-item text-center">              
+            <li class="nav-item text-center">
               <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
-                <i class="fas fa-bug fa-3x text-light m-3"></i>
+                <i class="fas fa-bug fa-2x text-light m-1 fa-2x"></i>
                 Portfolio
               </a>
             </li>
-            <li class="nav-item text-center">              
-              <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
-                <i class="fas fa-graduation-cap fa-3x text-light m-3"></i>
+            <li class="nav-item text-center">
+              <a href="#education" class="nav-link nav-active d-flex flex-column menu-item ">
+                <i class="fas fa-graduation-cap fa-2x text-light m-1 fa-2x"></i>
                 Education
               </a>
             </li>
-            <li class="nav-item text-center">              
+            <li class="nav-item text-center">
               <a href="#" class="nav-link nav-active d-flex flex-column menu-item ">
-                <i class="fas fa-paper-plane fa-3x text-light m-3"></i>
+                <i class="fas fa-paper-plane fa-2x text-light m-1 fa-2x"></i>
                 Contact
               </a>
             </li>
@@ -68,36 +88,44 @@
         </div>
       </nav>
     </div>
-    <!-- end of navbar -->
- 
-    <header class="section100vh navbar-menu-section-p">
-      <!-- social navbar -->
-      <nav class="navbar navbar-expand bg-transparent justify-content-end">
-        <ul class="navbar-nav nav-inline mt-3">
-          <li class="nav-item mr-4 text-warning"><i class="fa fa-linkedin fa-3x"></i></li>
-          <li class="nav-item mr-4 text-warning"><i class="fa fa-github fa-3x"></i></li>
-          <!-- li class="nav-item mr-4 text-warning"><i class="fa fa-facebook fa-2x"></i></li> -->
-        </ul>
-      </nav>
-      <!-- end of social navbar -->
-      <!-- banner -->
+    <!-- end of Fixed Bottom Navbar -->
+
+    <!-- Banner -->
+    <section class="section100vh navbar-menu-section-p header v-scroll h-100">
+      
       <div class="text-light text-right banner">
-        <div class="h1 banner-heading">A simple mortal with a computer, coffee and lot of hours of navigation across the Internet</div>
+        <div class="h1 banner-heading">A simple mortal with a computer, coffee and lot of hours of navigation across the
+          Internet</div>
       </div>
-      <!-- end of banner -->     
-    </header>
+      
+    </section>
+    <!-- end of Banner -->
 
     <!-- about me -->
-    <section class="section100vh bg-info navbar-menu-section-p">
-      <div class="container py-4">
-        <div class="row">
-          <div class="col-md-12">
+    <section class="section100vh bg-info navbar-menu-section-p v-scroll">
+      <div class="container-fluid py-4 h-100 d-flex align-items-center">
+        <div class="row justify-content-center">
+          <div class="col-md-6 fp-auto-height text-center px-4">
+            <img src="images/PhotoCV.png" alt="" class="img rounded-circle mb-2" width="200" height="200">
+            <div class="d-flex flex-column justify-content-center">
+              <div class="text-white">
+                <p class="">Hi! My name is Ernesto Meneses and I appreciate you're going through by my profile.</p>
+                <p class="">As you're here, let me tell you about some things about myself.</p>
+                <p class="">I'm a Senior Software Developer from Uruguay but I'been joyfully living with my lovely wife for the last 6 years.</p>
+                <p class="">I like cycling and nature but what I love most is to learn, about almost anything, I'm curious and I enjoy reading so I usually investigate about the things that interested me.</p>
+                <p class="">I hope one day learn to flight and also talk other languages than English and Spanish.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 fp-auto-height">
             <div class="carousel slide" data-ride="carousel" id="customer-carousel">
+              <!-- Carousel Indicators -->
               <ol class="carousel-indicators m-auto">
                 <li data-target="#customer-carousel" data-slide-to="0" class="active"></li>
                 <li data-target="#customer-carousel" data-slide-to="1"></li>
                 <li data-target="#customer-carousel" data-slide-to="2"></li>
               </ol>
+              <!-- Carousel Content -->
               <div class="carousel-inner">
                 <div class="carousel-item active text-center">
                   <div class="container my-4">
@@ -105,15 +133,19 @@
                       <div class="col-md-6 d-flex">
                         <div class="d-flex flex-column justify-content-center">
                           <blockquote class="blockquote text-white">
-                            <p class="lead">As SharePoint Specialist I mostly help organizations with RPA solutions using different tools and frameworks (SPFx, REST APIs, CSOM, JSOM, SharePoint Designer, Power Apps, Power Automate, InfoPath, Add-ins and Apps, among others), but I also orchestrate any kind of service for RPA and/or integrations using Azure Functions or Logic Apps, or just creating/consuming REST API services</p>
+                            <p class="lead">As SharePoint Specialist I mostly help organizations with RPA solutions
+                              using different tools and frameworks (SPFx, REST APIs, CSOM, JSOM, SharePoint Designer,
+                              Power Apps, Power Automate, InfoPath, Add-ins and Apps, among others), but I also
+                              orchestrate any kind of service for RPA and/or integrations using Azure Functions or Logic
+                              Apps, or just creating/consuming REST API services</p>
                           </blockquote>
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <img src="images/PhotoCV.png" alt="" class="img rounded-circle" width="300"  height="300">
+                        <img src="images/PhotoCV.png" alt="" class="img rounded-circle" width="300" height="300">
                       </div>
                     </div>
-                  </div>                  
+                  </div>
                 </div>
                 <div class="carousel-item text-center">
                   <div class="container my-4">
@@ -121,15 +153,17 @@
                       <div class="col-md-6 d-flex">
                         <div class="d-flex flex-column justify-content-center">
                           <blockquote class="blockquote text-white">
-                            <p class="lead">I also have experience developing web applications based on C# (MVC .Net & Core), JavaScript, REST, HTML, CSS and Angular. I recently had a close encounter with Azure DevOps and I started to apply on every personal project</p>
+                            <p class="lead">I also have experience developing web applications based on C# (MVC .Net &
+                              Core), JavaScript, REST, HTML, CSS and Angular. I recently had a close encounter with
+                              Azure DevOps and I started to apply on every personal project</p>
                           </blockquote>
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <img src="images/PhotoCV.png" alt="" class="img rounded-circle" width="300"  height="300">
+                        <img src="images/PhotoCV.png" alt="" class="img rounded-circle" width="300" height="300">
                       </div>
                     </div>
-                  </div>                  
+                  </div>
                 </div>
                 <div class="carousel-item text-center">
                   <div class="container my-4">
@@ -137,15 +171,18 @@
                       <div class="col-md-6 d-flex">
                         <div class="d-flex flex-column justify-content-center">
                           <blockquote class="blockquote text-white">
-                            <p class="lead">In these years as a consultant, between projects, I had to work with lot stuffs for creating POCs or simple projects, learning basics about Power Shell Scripting, Linux administration, T-SQL Scripting, SSIS ETL’s, RabbitMQ. I also have experience creating schedules, agile user stories, or others documentation needed for a project</p>
+                            <p class="lead">In these years as a consultant, between projects, I had to work with lot
+                              stuffs for creating POCs or simple projects, learning basics about Power Shell Scripting,
+                              Linux administration, T-SQL Scripting, SSIS ETL’s, RabbitMQ. I also have experience
+                              creating schedules, agile user stories, or others documentation needed for a project</p>
                           </blockquote>
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <img src="images/PhotoCV.png" alt="" class="img rounded-circle" width="300"  height="300">
+                        <img src="images/PhotoCV.png" alt="" class="img rounded-circle" width="300" height="300">
                       </div>
                     </div>
-                  </div>                  
+                  </div>
                 </div>
               </div>
             </div>
@@ -156,10 +193,10 @@
     <!-- end of about me -->
 
     <!-- skills -->
-    <section class="section100vh bg-success navbar-menu-section-p">
-      <div class="container-fluid py-4 ">
+    <section class="section100vh bg-success navbar-menu-section-p v-scroll">
+      <div class="container-fluid py-4 h-100">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 fp-auto-height">
             <div class="h2 text-center mb-4">
               <h1>Skills</h1>
             </div>
@@ -250,26 +287,127 @@
     <!-- end of skills -->
 
     <!-- experience -->
+    <section class="section100vh bg-warning navbar-menu-section-p v-scroll">
+      <div class="container-fluid py-4 h-100">
+        <div class="row">
+          <div class="col-md-12 fp-auto-height">
+            <div class="h2 text-center mb-4">
+              <h1>Experience</h1>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- end of experience -->
-    
-    <!-- achievements -->
-    <!-- end of achhievements -->
 
-    <!-- education -->
-    <!-- end of education -->
+    <!-- Portfolio -->
+    <section class="section100vh bg-danger navbar-menu-section-p v-scroll">
+      <div class="container-fluid py-4 h-100">
+        <div class="row">
+          <div class="col-md-12 fp-auto-height">
+            <div class="h2 text-center mb-4">
+              <h1>Portfolio</h1>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of Portfolio -->
 
-    <script>
-      $('.nav-item a').click(e => {
-        e.preventDefault();
-        $(this).tab('show');
+    <!-- Education -->
+    <section id="education" class="section100vh bg-dark navbar-menu-section-p v-scroll">
+      <div class="container-fluid py-4 h-100">
+        <div class="row">
+          <div class="col-md-12 fp-auto-height">
+            <div class="h2 text-center mb-4">
+              <h1>Education</h1>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of Education -->
+
+    <!-- Contact -->
+    <section class="section100vh bg-dark navbar-menu-section-p v-scroll">
+      <div class="container-fluid py-4 h-100">
+        <div class="row">
+          <div class="col-md-12 fp-auto-height">
+            <div class="h2 text-center mb-4">
+              <h1>Contact</h1>
+            </div>
+            <div class="container-fluid">
+              <div class="row">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of Contact -->
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" crossorigin="anonymous">
+  </script>
+
+
+  <!-- Esta línea es opcional. Sólamente es necesaria si se hace uso de la opción `css3:false` y se quiere usar otro efecto `easing` en lugar de `linear`, `swing` o `easeInOutCubic`. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/vendors/easings.min.js"></script>
+  <!-- Esta línea es opcional y sólamente es necesaria en caso de usar la opción `scrollOverflow:true`. -->
+  <!-- <script type="text/javascript" src="vendors/scrolloverflow.min.js"></script> -->
+  <!-- Esta línea es opcional y sólamente es necesaria en caso de usar las extensiones. -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.extensions.min.js"></script>
+  <!-- fullPage.js -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js">
+  </script>
+
+  <script>
+    $('.nav-item a').click(e => {
+      e.preventDefault();
+      $(this).tab('show');
+    });
+    $(document).ready(function () {
+      $('#fullPage').fullpage({
+        //Custom Selectos
+        sectionSelector:'.v-scroll',
+        slideSelector:'.h-scroll',
+        //Design
+        paddingTop: '85px',
+        paddingBottom: '135px',
+        fixedElements: '#header, #footer'
       });
-    </script>
+    });
+  </script>
 
-  </body>
+</body>
+
 </html>

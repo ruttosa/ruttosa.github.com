@@ -6,8 +6,14 @@ body{
     height: 100vh;
 }
 
+.fixed-section{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 /* header banner */
-header{
+.header{
     background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)), url(images/ernesto-main-banner-01.jpg) no-repeat center center /cover;
     background-attachment: fixed;
 }
@@ -28,12 +34,6 @@ header{
     animation-duration: 3s;
     animation-delay: .8s;
     animation-fill-mode: backwards;
-}
-.navbar-menu{
-    margin-top:-135px;
-}
-.navbar-menu-section-p{
-    padding-bottom: 135px;
 }
 @keyframes anim{
     0%{
